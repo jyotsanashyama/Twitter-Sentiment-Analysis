@@ -1,4 +1,5 @@
 Overview
+
 This project performs sentiment analysis on tweets related to the Pfizer vaccine. The data is sourced from Kaggle and analyzed using a pre-trained machine learning model. The application classifies tweets into positive, negative, and neutral categories and provides an interactive web interface for real-time analysis. The application is built with Python and utilizes several libraries for data processing, model training, and visualization.
 Additionally, a Jupyter Notebook (SentimentAnalysis.ipynb) showcases data preprocessing, word clouds, and various visualizations such as count plots and pie charts.
 
