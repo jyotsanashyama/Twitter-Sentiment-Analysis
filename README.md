@@ -17,5 +17,16 @@ Files
 - vectorizer.pkl: Serialized CountVectorizer used for feature extraction.
 - requirements.txt: List of dependencies required to run the project.
 
-  Docker
-  - Pull the Docker  Image from here: https://hub.docker.com/r/jyotsanashyama29/twitter_sentiment
+Docker
+- To containerize this project, I have used Docker.
+  
+  STEP1: Clone the whole repository in your local system
+  
+  STEP2: Create the Dockerfile
+  
+  STEP3: Build the docker image using this command:\
+  -> docker build -t twitter_sentiment .
+  
+  STEP4: Run the docker container using this command:\
+  -> docker run -p 8501:8501 twitter_sentiment
+- Alternatively, you can pull the Docker Image from here to run: https://hub.docker.com/r/jyotsanashyama29/twitter_sentiment
