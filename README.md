@@ -16,3 +16,6 @@ Files
 - model.pkl: Serialized logistic regression model for sentiment analysis.
 - vectorizer.pkl: Serialized CountVectorizer used for feature extraction.
 - requirements.txt: List of dependencies required to run the project.
+
+  Docker
+  - Pull the Docker  Image from here: https://hub.docker.com/r/jyotsanashyama29/twitter_sentiment
